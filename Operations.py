@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.array([10, 20, 30, 40, 50])
+print(f"Original Array: {arr}")
+print(f"Add 5 to each element: {arr + 5}")
+print(f"Multiply by 2: {arr * 2}")
+print(f"Sum of elements: {np.sum(arr)}")
+print(f"Mean (Average): {np.mean(arr)}")
+print(f"Maximum value: {np.max(arr)}")
+matrix = np.arange(1, 7).reshape(2, 3)
+print("\n2D Matrix (2x3):")
